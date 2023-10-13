@@ -1,0 +1,51 @@
+import logo from './logo.svg';
+import './App.css';
+import { useState } from 'react';
+import { ReactDOM } from 'react';
+
+function App() {
+  // int number;
+  // const [number,setnumber]=useState(0);
+  // const color =["red","blue","green","red"]
+  // let x=0
+  // const [rang,setrang]=useState(color["yellow"])
+  
+  // function add(){
+  //   var x=number+1;
+  
+  //   setnumber(x)
+  // }
+
+
+  function changecolor (){
+    // x=x+1;
+    // if (x>3) {
+    //   // document.styls
+    //   x=0;
+    //   setrang(color[x]);
+    // }
+    // else{
+    //   setrang(color[x]);
+    // }
+    // setrang(color[x]);
+    // setrang([(prevIndex) => (prevIndex + 1) % color.length]);
+    // setrang(color["pink"]);
+    
+  }
+  
+
+  return (
+    <>
+{/*     
+    <p style={{backgroundColor: color[rang]}}>hello</p>
+
+    <p className='first' style={{backgroundColor: color[rang]}}>dcdc my name is tanishq</p>
+    {/* <p>{number}</p> */}
+
+    {/* <button onClick={changecolor}>++</button> */} */}
+
+    </>
+  );
+}
+
+export default App;
